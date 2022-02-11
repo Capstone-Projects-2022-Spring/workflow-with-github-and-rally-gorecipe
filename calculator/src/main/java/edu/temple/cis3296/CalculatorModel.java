@@ -112,7 +112,7 @@ public class CalculatorModel {
 
     public double operationAdd(double rhs, double lhs) {
         return lhs + rhs;
-    }
+    } //Changed lfs to rhs to stop calculator from adding left side to itself
 
     public double operationSubst(double rhs, double lhs) {
         return (lhs - rhs);
